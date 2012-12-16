@@ -1,4 +1,4 @@
-wd = "/home/galiclick/public_html/neumaticos/current"
+wd = "/home/galiclick/public_html/joyeria/current"
 working_directory wd
 pid "#{wd}/tmp/pids/unicorn.pid"
 stderr_path "#{wd}/log/unicorn.log"
