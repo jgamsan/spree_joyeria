@@ -9,5 +9,6 @@
 
 //= require store/spree_core
 //= require store/spree_promo
+//= require bootstrap
 
 //= require_tree .

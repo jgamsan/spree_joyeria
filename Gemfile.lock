@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/jgamsan/spree_addings_for_joyeria.git
+  revision: a56ca1657e952512a56dfbbcf4309603eba2e6f5
+  specs:
+    spree_addings_for_joyeria (1.2.2)
+      spree_core (>= 1.0.0)
+
+GIT
   remote: git://github.com/spree/spree_auth_devise.git
   revision: c7e4705f0f4d4c1ac1ac479f0770817dbf9dbbdd
   branch: 1-2-stable
@@ -343,6 +350,7 @@ DEPENDENCIES
   rvm-capistrano
   sass-rails (~> 3.2.3)
   spree (= 1.2.2)
+  spree_addings_for_joyeria!
   spree_auth_devise!
   spree_skrill
   spree_usa_epay

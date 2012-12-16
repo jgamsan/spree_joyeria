@@ -1,0 +1,35 @@
+@import "bootstrap";
+
+.buscador {
+  position: relative;
+  margin-right: 5px;
+  z-index: 1;
+  float: right;
+  width: 236px;
+  height: 35px;
+}
+
+.construccion-caption {
+  position: absolute;
+  z-index: 1;
+  right: 30%;
+  bottom: 50%;
+  left: 30%;
+  padding: 15px;
+  background: #b94a48;
+  background: rgba(185, 74, 72, 0.5);
+}
+
+.construccion-caption h4,
+.construccion-caption p {
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.construccion-caption h4 {
+  margin: 0 0 5px;
+}
+
+.construccion-caption p {
+  margin-bottom: 0;
+}
