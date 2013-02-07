@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.9'
+gem 'rails', '3.2.11'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -24,6 +24,7 @@ end
 gem 'jquery-rails'
 gem 'rails-i18n'
 gem 'devise-i18n'
+gem 'slim-rails'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -32,7 +33,6 @@ gem 'devise-i18n'
 group :production do
   gem 'unicorn'
   gem 'foreman'
-  gem 'therubyracer', '0.10.2' #only required for 0.70.x or later
 end
 group :development do
   gem 'capistrano'
@@ -42,6 +42,10 @@ group :development do
   gem 'bullet'
   gem 'letter_opener'
   gem 'puma'
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem 'meta_request'
+  gem 'colorize'
 end
 # Use unicorn as the app server
 # gem 'unicorn'
@@ -51,8 +55,9 @@ end
 
 # To use debugger
 # gem 'debugger'
-gem 'spree', '1.2.2'
+gem 'spree', '1.3.2'
 gem 'spree_usa_epay'
 gem 'spree_skrill'
-gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => '1-2-stable'
+gem 'spree_i18n', :git => 'git://github.com/jgamsan/spree_i18n.git'
+gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise', :branch => 'edge'
 gem 'spree_addings_for_joyeria', :git => 'git://github.com/jgamsan/spree_addings_for_joyeria.git'
