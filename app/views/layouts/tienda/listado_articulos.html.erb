@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="tipo_contenido"  content="text/html;" http-equiv="content-type" charset="utf-8">
+    <title>Rosa Mart&iacute;nez Joyería de Autor</title>
+    <%= stylesheet_link_tag 'store/bootstrap', :cache => true %>
+    <%= javascript_include_tag 'store/all', :cache => true %>
+</head>
+
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </a>
+        <div class="nav-collapse collapse">
+            <ul class="nav">
+                <li id="logo"></li>
+                <li class="active"><a href="portada.html">Portada</a></li>
+                <li><a href="contenido.html">Sobre mí</a></li>
+                <li><a href="index_tienda.html">Tienda Online</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Galería de fotos<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="contenido.html">Nueva Colección</a></li>
+                        <li class="divider"></li>
+                        <li><a href="contenido.html">Colección Oro</a></li>
+                        <li><a href="contenido.html">Colección Plata</a></li>
+                    </ul>
+                </li>
+                <li><a href="contenido.html">Contacto</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="container" style="padding: 180px 0;">
+    <div class="row fluid">
+        <div class="span4" style="background-color: #e2d161; height: 120px;">foto</div>
+        <div class="span8" style="background-color: #e2d130; height: 120px;">datos artículo</div>
+    </div>
+</div>
+</body>
+</html>
