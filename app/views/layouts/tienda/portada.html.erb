@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="tipo_contenido"  content="text/html;" http-equiv="content-type" charset="utf-8">
+    <title>Rosa Mart&iacute;nez Joyería de Autor</title>
+    <%= stylesheet_link_tag 'store/all' %>
+    <%= javascript_include_tag 'store/all' %>
+</head>
+
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <%= render :partial => 'spree/shared/navbar' %>
+  </div>
+  <div class="container">
+    <div class="hero-unit"><h1>Ya estamos aquí!</h1>
+      <p>Texto de presentación, más tarde se convertirá en un banner móvil con varias imágenes.</p>
+    </div>
+    <div class="row">
+      <div class="span4"><h3>Dónde encontrarme...</h3><div id="fondo_ferias">
+        <div class="b_fondo"><b>Aquí podrás conocer de antemano dónde encontrarme en cada uno de los actos, ferias o establecimientos a los que asistiré con mis joyas.</b></div></div></div>
+      <div class="span4"><h3>Mis Materiales</h3><div id="fondo_materiales">
+        <div class="b_fondo"><b>Todas mis piezas son creadas con materiales de gran calidad, aquí puedes visitar el amplio catálogo de materiales de mis creaciones.</b></div></div></div>
+      <div class="span4"><h3>Mis Clientes</h3><div id="fondo_clientes">
+        <div class="b_fondo"><b>Mis clientes son mi firme sello de calidad, su satisfacción con mis joyas plasman mi pasión por mi trabajo.</b></div></div></div>
+      <div class="span4" style="padding: 5px 0;"><p><a class="btn" href="contenido.html">Saber más »</a></p></div>
+      <div class="span4" style="padding: 5px 0;"><p><a class="btn" href="contenido.html">Catálogo »</a></p></div>
+      <div class="span4" style="padding: 5px 0;"><p><a class="btn" href="contenido.html">Detalles »</a></p></div>
+    </div>
+    <hr><footer><p>Galiclick.com 2012</p></footer>
+  </div>
+</body>
+</html>
