@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/jgamsan/spree_addings_for_joyeria.git
-  revision: a120eafb08f340f02e5395b53edcbe658f36999a
+  revision: cb56af847cbe546230f68d1707f0b342558dd423
   specs:
     spree_addings_for_joyeria (1.2.2)
       spree_core (>= 1.0.0)
