@@ -46,6 +46,7 @@ group :development do
   gem "binding_of_caller"
   gem 'meta_request'
   gem 'colorize'
+  gem 'thin'
 end
 # Use unicorn as the app server
 # gem 'unicorn'
@@ -58,6 +59,7 @@ end
 gem 'spree', '1.3.2'
 gem 'spree_usa_epay'
 gem 'spree_skrill'
+gem "spree_paypal_express", :git => "git://github.com/spree/spree_paypal_express.git", :branch => '1-3-stable'
 gem 'spree_i18n', :git => 'git://github.com/jgamsan/spree_i18n.git'
 gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise', :branch => 'edge', :ref => 'ba356f4c71'
 gem 'spree_addings_for_joyeria', :git => 'git://github.com/jgamsan/spree_addings_for_joyeria.git'
