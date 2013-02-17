@@ -1,0 +1,69 @@
+---
+
+Coleccion:
+  id: 1
+  parent_id:
+  position: 0
+  name: Coleccion
+  permalink: coleccion
+  taxonomy_id: 1
+  created_at: 2013-02-16 17:07:00.082729000 Z
+  updated_at: 2013-02-16 17:07:00.082729000 Z
+  lft: 1
+  rgt: 8
+  icon_file_name:
+  icon_content_type:
+  icon_file_size:
+  icon_updated_at:
+  description:
+
+Oro:
+  id: 2
+  parent_id:1
+  position: 0
+  name: Colección Oro
+  permalink: coleccion/coleccion-oro
+  taxonomy_id: 1
+  created_at: 2013-02-16 17:07:15.820867000 Z
+  updated_at: 2013-02-16 17:07:15.820867000 Z
+  lft: 2
+  rgt: 3
+  icon_file_name:
+  icon_content_type:
+  icon_file_size:
+  icon_updated_at:
+  description:
+
+Plata:
+  id: 3
+  parent_id: 1
+  position: 1
+  name: Colección Plata
+  permalink: coleccion/coleccion-plata
+  taxonomy_id: 1
+  created_at: 2013-02-16 17:07:32.320487000 Z
+  updated_at: 2013-02-16 17:07:32.320487000 Z
+  lft: 4
+  rgt: 5
+  icon_file_name:
+  icon_content_type:
+  icon_file_size:
+  icon_updated_at:
+  description:
+
+Plata:
+  id: 4
+  parent_id: 1
+  position: 2
+  name: Nueva Colección
+  permalink: coleccion/nueva-coleccion
+  taxonomy_id: 1
+  created_at: 2013-02-16 17:07:45.702821000 Z
+  updated_at: 2013-02-16 17:07:45.702821000 Z
+  lft: 6
+  rgt: 7
+  icon_file_name:
+  icon_content_type:
+  icon_file_size:
+  icon_updated_at:
+  description:

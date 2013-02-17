@@ -62,4 +62,5 @@ gem 'spree_skrill'
 gem "spree_paypal_express", :git => "git://github.com/spree/spree_paypal_express.git", :branch => '1-3-stable'
 gem 'spree_i18n', :git => 'git://github.com/jgamsan/spree_i18n.git'
 gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise', :branch => 'edge', :ref => 'ba356f4c71'
+gem "spree_contact_us", :git => "git://github.com/jgamsan/spree_contact_us.git"
 gem 'spree_addings_for_joyeria', :git => 'git://github.com/jgamsan/spree_addings_for_joyeria.git'
