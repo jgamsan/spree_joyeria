@@ -19,7 +19,7 @@ Coleccion:
 
 Oro:
   id: 2
-  parent_id:1
+  parent_id: 1
   position: 0
   name: Colección Oro
   permalink: coleccion/coleccion-oro
