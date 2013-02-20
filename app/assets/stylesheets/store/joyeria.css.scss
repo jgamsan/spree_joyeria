@@ -1,3 +1,4 @@
+@import "bootstrap";
 .buscador {
   position: relative;
   margin-right: 5px;
@@ -100,4 +101,12 @@
 }
 .roundabout-in-focus {
   cursor: auto;
+}
+#logo-cons {
+  position: absolute;
+  top: 35px;
+}
+#menu {
+  position: absolute;
+  top: 275px;
 }
