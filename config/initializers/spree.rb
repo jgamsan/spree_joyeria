@@ -9,6 +9,14 @@ Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
   # config.site_name = "Spree Demo Site"
+  config.allow_ssl_in_production = false
+  config.default_country_id = 188
+  config.prices_inc_tax = true
+  config.show_zero_stock_products = false
+  config.max_level_in_taxons_menu = 2
+  config.currency = "EUR"
+  config.display_currency = false
+  config.currency_symbol_position = "after"
 end
 
 Spree.user_class = "Spree::User"
